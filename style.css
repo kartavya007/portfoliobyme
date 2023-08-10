@@ -3,10 +3,6 @@
     padding: 0;
     margin: 0;
 }
-body
-{
-    overflow-x: hidden;
-}
 nav
 {
     padding: 1vh;
@@ -94,12 +90,17 @@ nav .text .mentor:hover
     display: flex;
     place-items: center;
     place-content: center;
-
+    margin: 1vh;
 }
 .main_content2 .content_1
 {
     display: grid;
-    text-align: right;
+    text-align: center;
     width: 40vw;
     background-color: rgb(83, 3, 163);;
+}
+.main_content2 .content_1 .content3 
+{
+    font-size: 3vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
